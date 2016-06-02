@@ -1,0 +1,24 @@
+{
+  "name": "jwt-auth",
+  "version": "1.0.0",
+  "description": "Node.js Authentication Boilerplate with JWT",
+  "main": "server.js",
+  "scripts": {
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "author": "xhad",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "jsonwebtoken": "^7.0.0",
+    "mongoose": "^4.4.19",
+    "morgan": "^1.7.0",
+    "password-hash": "^1.2.2"
+  },
+  "devDependencies": {
+    "concurrently": "latest",
+    "lite-server": "latest"
+  }
+}
