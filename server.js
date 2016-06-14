@@ -110,4 +110,4 @@ app.use('/api', api);
 // in postman, add key x-access-token with token as value in header
 
 app.listen(port);
-console.log('server started on localhost');
+console.log('server started on localhost on ' + port);
