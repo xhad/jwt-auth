@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "start": "npm run lite",
-    "lite": "lite-server"
+    "lite": "lite-server",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "xhad",
   "license": "MIT",
@@ -15,10 +17,12 @@
     "jsonwebtoken": "^7.0.0",
     "mongoose": "^4.4.19",
     "morgan": "^1.7.0",
-    "password-hash": "^1.2.2"
+    "password-hash": "^1.2.2",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "concurrently": "latest",
     "lite-server": "latest"
-  }
+  },
+  "snyk": true
 }
